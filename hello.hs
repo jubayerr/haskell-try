@@ -1,2 +1,3 @@
 main = do 
-    putStrLn "Hello World!"
+    -- print hello world
+    putStrLn "Hello World! Haskell is really Awesome!"
