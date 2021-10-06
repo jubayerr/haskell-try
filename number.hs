@@ -1,2 +1,10 @@
+-- return a value
+
+cube :: Int -> Int
+cube num = num * num * num
+
+main :: IO ()
 main = do
-    print (sqrt 36)
+    let result = cube 3
+    print result
+    
